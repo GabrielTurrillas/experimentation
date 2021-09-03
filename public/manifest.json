@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Gabriel Portfolio",
+  "name": "Gabriel Turrillas Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -22,4 +22,13 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
+}
+
+{
+  "name": "Gabriel Turrillas Portfolio",
+  "short": "Gabriel.T Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
 }
