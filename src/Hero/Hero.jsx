@@ -76,15 +76,6 @@ const Grid = styled.div`
   color:white;
 `
 
-const TextArea = styled.div`
-  grid-area:TextArea;
-  display:flex;
-  height:100%;
-  background-color:red;
-  align-items:end;
-  justify-content:center;
-  z-index:999;
-`
 
 const H1 = styled.h1`
   font-size:1.4rem;
@@ -95,21 +86,31 @@ const H1 = styled.h1`
   @media ${device.laptopL}{
     font-size:2.5rem;
   }
-`
+  `
 
 const Magenta = styled.span`
   color: ${colors.secondary};
-`
+  `
 
 const ButtonArea = styled.div`
+  grid-area:ButtonArea;
   display:flex;
   height:100%;
-  grid-area:ButtonArea;
-  background-color: blue;
   align-items:center;
   justify-content:center;
+  background-color: blue;
   z-index:999;
   color:white;
+  `
+
+const TextArea = styled.div`
+  grid-area:TextArea;
+  display:flex;
+  height:100%;
+  align-items:end;
+  justify-content:center;
+  background-color:red;
+  z-index:999;
 `
 
 
