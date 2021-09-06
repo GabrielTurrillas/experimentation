@@ -20,7 +20,7 @@ const Hero = () => {
             </H1>
           </TextArea>
           <ButtonArea>
-
+            button
           </ButtonArea>
         </Grid>
       </Container>
@@ -77,8 +77,9 @@ const Grid = styled.div`
 `
 
 const TextArea = styled.div`
-  display:flex;
   grid-area:TextArea;
+  display:flex;
+  height:100%;
   background-color:red;
   align-items:end;
   justify-content:center;
@@ -102,11 +103,13 @@ const Magenta = styled.span`
 
 const ButtonArea = styled.div`
   display:flex;
+  height:100%;
   grid-area:ButtonArea;
-  background-color: red;
+  background-color: blue;
   align-items:center;
   justify-content:center;
   z-index:999;
+  color:white;
 `
 
 
