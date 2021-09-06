@@ -107,7 +107,7 @@ const TextArea = styled.div`
   grid-area:TextArea;
   display:flex;
   height:100%;
-  align-items:end;
+  align-items:flex-end;
   justify-content:center;
   background-color: red;
   z-index:999;
