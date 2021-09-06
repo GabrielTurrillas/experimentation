@@ -75,7 +75,7 @@ const Grid = styled.div`
   grid-template-areas:'TextArea'
                       'ButtonArea';
   justify-content:center;
-  align-items:center;
+  align-items:end;
   height:100vh;
   color:white;
 `
