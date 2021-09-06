@@ -20,6 +20,7 @@ const Hero = () => {
             </H1>
           </TextArea>
           <ButtonArea>
+
           </ButtonArea>
         </Grid>
       </Container>
@@ -30,9 +31,6 @@ const Hero = () => {
 export default Hero;
 
 const Container = styled.div`
-  display:flex;
-  justify-content: center;
-  align-items: center;
   position:relative;
   height:100vh;
   padding:0 ${heroExternalPadding.mobileS};
@@ -54,11 +52,12 @@ const HeroBg = styled.div`
   position:absolute;
   top:0;
   right:0;
-  bottom:0;
   left:0;
+  bottom:0;
   width:100%;
   height:100%;
   overflow:hidden;
+  z-index:0;
 `
 
 const VideoBg = styled.video`
@@ -70,12 +69,9 @@ const VideoBg = styled.video`
 `
 
 const Grid = styled.div`
-  position:absolute;
   display: grid;
   grid-template-areas:'TextArea'
                       'ButtonArea';
-  justify-content:center;
-  align-items:end;
   height:100vh;
   color:white;
 `
@@ -83,6 +79,7 @@ const Grid = styled.div`
 const TextArea = styled.div`
   display:flex;
   grid-area:TextArea;
+  background-color:red;
   align-items:end;
   justify-content:center;
   z-index:999;
@@ -106,6 +103,7 @@ const Magenta = styled.span`
 const ButtonArea = styled.div`
   display:flex;
   grid-area:ButtonArea;
+  background-color: red;
   align-items:center;
   justify-content:center;
   z-index:999;
