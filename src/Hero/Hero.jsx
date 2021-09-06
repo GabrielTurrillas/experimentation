@@ -20,7 +20,6 @@ const Hero = () => {
             </H1>
           </TextArea>
           <ButtonArea>
-            {/*             <PrimaryButton /> */}
           </ButtonArea>
         </Grid>
       </Container>
@@ -31,6 +30,9 @@ const Hero = () => {
 export default Hero;
 
 const Container = styled.div`
+  display:flex;
+  justify-content: center;
+  align-items: center;
   position:relative;
   height:100vh;
   padding:0 ${heroExternalPadding.mobileS};
