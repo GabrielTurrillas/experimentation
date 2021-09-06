@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { colors, GlobalStyles, device, heroExternalPadding } from '../styles';
-/* import PrimaryButton from '../PrimaryButton/PrimaryButton'; */
+
 
 const Hero = () => {
   return (
@@ -86,7 +86,7 @@ const H1 = styled.h1`
   @media ${device.laptopL}{
     font-size:2.5rem;
   }
-  `
+`
 
 const Magenta = styled.span`
   color: ${colors.secondary};
@@ -107,9 +107,9 @@ const TextArea = styled.div`
   grid-area:TextArea;
   display:flex;
   height:100%;
-  align-items:end;
+  align-items:center;
   justify-content:center;
-  background-color:red;
+  background-color: red;
   z-index:999;
 `
 
